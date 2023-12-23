@@ -1,5 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/$hazel-form-409016/my-image', '.']
-images: ['gcr.io/$hazel-form-409016/my-image']
+  args: ['build', '-t', 'gcr.io/gcr.io/hazel-form-409016/my-image
+', '.']
+images: ['gcr.io/hazel-form-409016/my-image
+']
 
