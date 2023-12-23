@@ -1,4 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/addressbook 93701/my-image', '.']
-images: ['gcr.io/$addressbook 93701/my-image']
+  args: ['build', '-t', 'gcr.io/$hazel-form-409016/my-image', '.']
+images: ['gcr.io/$hazel-form-409016/my-image']
+
