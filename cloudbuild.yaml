@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/My Project 93701/my-image', '.']
-images: ['gcr.io/$My Project 93701/my-image']
+  args: ['build', '-t', 'gcr.io/addressbook 93701/my-image', '.']
+images: ['gcr.io/$addressbook 93701/my-image']
